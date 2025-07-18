@@ -1,7 +1,82 @@
-<html>
-  <body>
-    <h1>Your name here</h1>
-    <h2>Your student code here</h2>
-    <h2>พยายามแสดงภาษาไทย</h2>
-  </body>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ปาท่องโก๋ มช.</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header img {
+            height: 80px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .promo {
+            text-align: center;
+            font-size: 1.2em;
+            color: #555;
+            margin: 10px 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .price {
+            color: #e67e22;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="โลโก้ร้านปาท่องโก๋">
+    </header>
+    <h1>ปาท่องโก๋ มช. อร่อยเด็ดเจ็ดย่านน้ำ!</h1>
+    <div class="promo">
+        สดใหม่ทุกเช้า กรอบนอกนุ่มใน ราคานักศึกษา พร้อมเสิร์ฟความอร่อยถึงมือคุณ
+    </div>
+    <div class="gallery">
+        <div class="item">
+            <img src="patongko1.jpg" alt="ปาท่องโก๋แบบดั้งเดิม">
+            <div class="price">ราคา 10 บาท</div>
+        </div>
+        <div class="item">
+            <img src="patongko2.jpg" alt="ปาท่องโก๋จิ้มสังขยา">
+            <div class="price">ราคา 15 บาท</div>
+        </div>
+        <div class="item">
+            <img src="patongko3.jpg" alt="ปาท่องโก๋ไส้ครีม">
+            <div class="price">ราคา 20 บาท</div>
+        </div>
+    </div>
+</body>
 </html>
